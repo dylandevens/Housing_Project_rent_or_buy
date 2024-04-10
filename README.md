@@ -202,11 +202,114 @@ Some of the zip codes for downtown cover a very small area, often only a block o
 98191
 98194
 
+ALL:
+[
+98102,
+98103,
+98107,
+98109,
+98112,
+98115,
+98117,
+98119,
+98125,
+98133,
+98177,
+98105,
+98106,
+98108,
+98112,
+98116,
+98118,
+98122,
+98126,
+98134,
+98136,
+98144,
+98146,
+98178,
+98199,
+98101,
+98104,
+98113,
+98121,
+98141,
+98154,
+98161,
+98165,
+98170,
+98174,
+98175,
+98181,
+98185,
+98190,
+98191,
+98194,
+]
 
 
+Kaggle Washington / Redfin Header Definiitions
+https://www.redfin.com/news/data-center-metrics-definitions/
+The dataset has the following columns:
 
-
-
+period_begin
+period_end
+period_duration
+region_type
+region_type_id
+table_id
+is_seasonally_adjusted. (indicates if prices are seasonally adjusted; f represents False)
+region
+city
+state
+state_code
+property_type
+property_type_id
+median_sale_price
+median_sale_price_mom (median sale price changes month over month)
+median_sale_price_yoy (median sale price changes year over year)
+median_list_price
+median_list_price_mom (median list price changes month over month)
+median_list_price_yoy (median list price changes year over year)
+median_ppsf (median sale price per square foot)
+median_ppsf_mom (median sale price per square foot changes month over month)
+median_ppsf_yoy (median sale price per square foot changes year over year)
+median_list_ppsf (median list price per square foot)
+median_list_ppsf_mom (median list price per square foot changes month over month)
+median_list_ppsf_yoy. (median list price per square foot changes year over year)
+homes_sold (number of homes sold)
+homes_sold_mom (number of homes sold month over month)
+homes_sold_yoy (number of homes sold year over year)
+pending_sales
+pending_sales_mom
+pending_sales_yoy
+new_listings
+new_listings_mom
+new_listings_yoy
+inventory
+inventory_mom
+inventory_yoy
+months_of_supply
+months_of_supply_mom
+months_of_supply_yoy
+median_dom (median days on market until property is sold)
+median_dom_mom (median days on market changes month over month)
+median_dom_yoy (median days on market changes year over year)
+avg_sale_to_list (average sale price to list price ratio)
+avg_sale_to_list_mom (average sale price to list price ratio changes month over month)
+avg_sale_to_list_yoy (average sale price to list price ratio changes year over year)
+sold_above_list
+sold_above_list_mom
+sold_above_list_yoy
+price_drops
+price_drops_mom
+price_drops_yoy
+off_market_in_two_weeks (number of properties that will be taken off the market within 2 weeks)
+off_market_in_two_weeks_mom (changes in number of properties that will be taken off the market within 2 weeks, month over month)
+off_market_in_two_weeks_yoy (changes in number of properties that will be taken off the market within 2 weeks, year over year)
+parent_metro_region
+parent_metro_region_metro_code
+last_updated
 
 
 
@@ -229,5 +332,11 @@ Some of the zip codes for downtown cover a very small area, often only a block o
 Sources: 
 rental data in king_county_rental.csv from https://www.zillow.com/research/data/ Zillow Observed Rent Index (ZORI)
 
-
 Seattle_zhiv.csv.zip and metro_seattle_zhiv.csv.zip from https://www.zillow.com/research/data/ Zillow Home Value Index (ZHVI)
+
+Kagggle_Washington.csv from 
+https://www.kaggle.com/datasets/vincentvaseghi/us-cities-housing-market-data?resource=download
+
+redfin_by_zipcode
+https://www.redfin.com/news/data-center/
+    
