@@ -145,3 +145,89 @@ It’s crucial that you find time to rehearse before presentation day.
 On the day of your presentation, each member of your group is required to submit the URL of your GitHub repository for grading.
 
 
+
+
+
+
+NORTH SEATTLE ZIP CODES.
+Here is the list of codes for the areas north of downtown Seattle.
+
+98102
+98103
+98107
+98109
+98112
+98115
+98117
+98119
+98125
+98133
+98177
+
+SOUTH SEATTLE ZIP CODES:
+Here's the list of zip codes for areas east and south of downtown including West Seattle 
+
+98105
+98106
+98108
+98112
+98116
+98118
+98122
+98126
+98134
+98136
+98144
+98146
+98178
+98199
+
+ZIP CODES FOR DOWNTOWN SEATTLE:
+Some of the zip codes for downtown cover a very small area, often only a block or two.
+
+98101
+98104
+98113
+98121
+98141
+98154
+98161
+98165
+98170
+98174
+98175
+98181
+98185
+98190
+98191
+98194
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sources: 
+rental data in king_county_rental.csv from https://www.zillow.com/research/data/ Zillow Observed Rent Index (ZORI)
+
+
+Seattle_zhiv.csv.zip and metro_seattle_zhiv.csv.zip from https://www.zillow.com/research/data/ Zillow Home Value Index (ZHVI)
