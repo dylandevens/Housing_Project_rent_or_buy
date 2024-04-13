@@ -1,0 +1,3 @@
+pull census data from census bureau website with census API(population / income / city economic growth / unemployment rate / ...)
+clean the census API data
+outline specifically what we want to show in our final report (rent vs sales prices overtime, available houses over time, average income for an area ...)
