@@ -1,0 +1,41 @@
+pull census data from census bureau website with census API(population / income / city economic growth / unemployment rate / ...)
+clean the census API data
+outline specifically what we want to show in our final report (rent vs sales prices overtime, available houses over time, average income for an area ...)
+
+added notes from slack. todo: scrub census data for income by zipcode and housing market by zipcode
+
+ensure .env is working properly
+
+construct correct API stuff
+
+Subject Tables
+Example Call: api.census.gov/data/2022/acs/acs1/subject?get=NAME,group(S0101)&for=us:1&key=YOUR_KEY_GOES_HERE
+
+Data Profiles
+Example Call: api.census.gov/data/2022/acs/acs1/profile?get=group(DP02)&for=us:1&key=YOUR_KEY_GOES_HERE
+
+Comparison Profile
+Example Call: api.census.gov/data/2022/acs/acs1/cprofile?get=group(CP05)&for=us:1&key=YOUR_KEY_GOES_HERE
+
+detailed tables
+Example Call: api.census.gov/data/2022/acs/acs1?get=NAME,group(B01001)&for=us:1&key=YOUR_KEY_GOES_HERE
+
+https://www.census.gov/quickfacts/fact/table/seattlecitywashington#
+https://data.census.gov/table
+https://data.census.gov/mdat/#/search?ds=ACSPUMS1Y2022
+https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-api-variable-formats.html
+https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-api-variable-types.html
+https://www.census.gov/data/developers/data-sets/acs-1year.html
+https://api.census.gov/data/2020/dec/dhc/examples.html
+https://www.census.gov/data/developers/data-sets/soma.html
+
+# acs dp03 selected economic characteristics, seattle-metro. example zipcode:98001
+https://data.census.gov/table/ACSDP5Y2022.DP03?g=860XX00US98001_040XX00US53&tid=ACSDP5Y2022.DP03
+
+https://data.census.gov/table?g=040XX00US53_310XX00US42660
+
+# hpso1 household pulse survey 2024 seattle metro
+https://data.census.gov/table/HHPULSETIMESERIES.HPS01?g=040XX00US53_310XX00US42660
+
+# i don't even know right now. clues.
+https://data.census.gov/table?t=Financial%20Characteristics:Housing%20Value%20and%20Purchase%20Price:Mortgage%20Costs:Renter%20Costs
