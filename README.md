@@ -244,8 +244,80 @@ ALL:
 98185,
 98190,
 98191,
-98194,
+98194
 ]
+
+
+
+It looks like the  zpicodes from wikipedia are different:
+THIS IS A MORE COMPLETE LIST OF ZIPCODES FOR THE SEATTLE AREA:
+relevantzips = [
+    98101,
+98102,
+98103,
+98104,
+98105,
+98106,
+98107,
+98108,
+98109,
+98110,
+98111,
+98112,
+98113,
+98114,
+98115,
+98116,
+98117,
+98118,
+98119,
+98121,
+98122,
+98124,
+98125,
+98126,
+98127,
+98129,
+98131,
+98133,
+98134,
+98136,
+98138,
+98139,
+98141,
+98144,
+98145,
+98146,
+98148,
+98154,
+98155,
+98158,
+98160,
+98161,
+98164,
+98165,
+98166,
+98168,
+98170,
+98174,
+98175,
+98177,
+98178,
+98181,
+98185,
+98188,
+98190,
+98191,
+98194,
+98195,
+98198,
+98199]
+relevantzips
+
+
+
+
+
 
 
 Kaggle Washington / Redfin Header Definiitions
@@ -331,11 +403,29 @@ last_updated
 
 Sources: 
 rental data in king_county_rental.csv from https://www.zillow.com/research/data/ Zillow Observed Rent Index (ZORI)
+Zillow Observed Rent Index (ZORI): A smoothed measure of the typical observed market rate rent across a given region. ZORI is a repeat-rent index that is weighted to the rental housing stock to ensure representativeness across the entire market, not just those homes currently listed for-rent. The index is dollar-denominated by computing the mean of listed rents that fall into the 40th to 60th percentile range for all homes and apartments in a given region, which is weighted to reflect the rental housing stock.
+
+Beginning in May 2020 with publication of April 2020 data, Zillow is releasing a new measure of rental appreciation. The Zillow Observed Rent Index (ZORI) measures changes in asking rents over time, controlling for changes in the quality of the available rental stock in ways that other measures of rental prices cannot. 
+
+What’s available to rent at any given time can change rapidly, and measures of median or average prices across time may not reflect actual market-based movements in rent prices, but instead simply reflect the fact that certain unit types are available at different times. ZORI solves this challenge by calculating price differences for the same rental unit over time, then aggregating those differences across all properties repeatedly listed for rent on Zillow.  
+
+Underlying the index is Zillow’s industry-leading database of rental properties. To ensure we are capturing the rental market as a whole, and not just those rentals posted to Zillow, we created weights for the index based on the latest data from the U.S. Census Bureau.  Units that appear more frequently in the Zillow data hold less weight, and those that appear less frequently are more heavily weighted. 
+
+Information on the age of a given rental building and the number of units it contains is obtained from the annual American Community Survey (ACS). Data on age of buildings — the decade the structure was built — goes back to1940; homes built prior to 1940 are grouped together. The number of units in the structure is simplified to three categories: single-unit (detached and attached), 2-4 units and 5+ units.
+
+ZORI is currently calculated at the national, metropolitan, county, city and zip levels for all regions where sufficient data is available.
+
+
 
 Seattle_zhiv.csv.zip and metro_seattle_zhiv.csv.zip from https://www.zillow.com/research/data/ Zillow Home Value Index (ZHVI)
 
+
+
 Kagggle_Washington.csv from 
 https://www.kaggle.com/datasets/vincentvaseghi/us-cities-housing-market-data?resource=download
+
+
+
 
 redfin_by_zipcode
 https://www.redfin.com/news/data-center/
